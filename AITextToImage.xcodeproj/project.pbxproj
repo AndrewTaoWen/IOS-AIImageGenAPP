@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E19BBD322B3119AF00E523C0 /* GeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19BBD312B3119AF00E523C0 /* GeneratorView.swift */; };
+		E19BBD342B31201800E523C0 /* GeneratorViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19BBD332B31201800E523C0 /* GeneratorViewModal.swift */; };
+		E19BBD372B3125C200E523C0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E19BBD362B3125C200E523C0 /* Alamofire */; };
+		E19BBD392B31262800E523C0 /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19BBD382B31262800E523C0 /* OpenAIService.swift */; };
 		E1CF7DB82B30E70E004626F1 /* AITextToImageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF7DB72B30E70E004626F1 /* AITextToImageApp.swift */; };
 		E1CF7DBA2B30E70E004626F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF7DB92B30E70E004626F1 /* ContentView.swift */; };
 		E1CF7DBC2B30E711004626F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1CF7DBB2B30E711004626F1 /* Assets.xcassets */; };
@@ -14,6 +18,8 @@
 		E1CF7DC92B30E711004626F1 /* AITextToImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF7DC82B30E711004626F1 /* AITextToImageTests.swift */; };
 		E1CF7DD32B30E711004626F1 /* AITextToImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF7DD22B30E711004626F1 /* AITextToImageUITests.swift */; };
 		E1CF7DD52B30E711004626F1 /* AITextToImageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF7DD42B30E711004626F1 /* AITextToImageUITestsLaunchTests.swift */; };
+		E1CF7DE42B30E78A004626F1 /* ImageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF7DE32B30E78A004626F1 /* ImageStyle.swift */; };
+		E1CF7DE62B30E922004626F1 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF7DE52B30E922004626F1 /* Welcome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E19BBD312B3119AF00E523C0 /* GeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorView.swift; sourceTree = "<group>"; };
+		E19BBD332B31201800E523C0 /* GeneratorViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorViewModal.swift; sourceTree = "<group>"; };
+		E19BBD382B31262800E523C0 /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
 		E1CF7DB42B30E70E004626F1 /* AITextToImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AITextToImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CF7DB72B30E70E004626F1 /* AITextToImageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITextToImageApp.swift; sourceTree = "<group>"; };
 		E1CF7DB92B30E70E004626F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +53,8 @@
 		E1CF7DCE2B30E711004626F1 /* AITextToImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AITextToImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CF7DD22B30E711004626F1 /* AITextToImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITextToImageUITests.swift; sourceTree = "<group>"; };
 		E1CF7DD42B30E711004626F1 /* AITextToImageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITextToImageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E1CF7DE32B30E78A004626F1 /* ImageStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStyle.swift; sourceTree = "<group>"; };
+		E1CF7DE52B30E922004626F1 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E19BBD372B3125C200E523C0 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +107,12 @@
 			isa = PBXGroup;
 			children = (
 				E1CF7DB72B30E70E004626F1 /* AITextToImageApp.swift */,
+				E19BBD382B31262800E523C0 /* OpenAIService.swift */,
+				E1CF7DE52B30E922004626F1 /* Welcome.swift */,
+				E1CF7DE32B30E78A004626F1 /* ImageStyle.swift */,
+				E19BBD312B3119AF00E523C0 /* GeneratorView.swift */,
 				E1CF7DB92B30E70E004626F1 /* ContentView.swift */,
+				E19BBD332B31201800E523C0 /* GeneratorViewModal.swift */,
 				E1CF7DBB2B30E711004626F1 /* Assets.xcassets */,
 				E1CF7DBD2B30E711004626F1 /* Preview Content */,
 			);
@@ -143,6 +160,9 @@
 			dependencies = (
 			);
 			name = AITextToImage;
+			packageProductDependencies = (
+				E19BBD362B3125C200E523C0 /* Alamofire */,
+			);
 			productName = AITextToImage;
 			productReference = E1CF7DB42B30E70E004626F1 /* AITextToImage.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +235,9 @@
 				Base,
 			);
 			mainGroup = E1CF7DAB2B30E70E004626F1;
+			packageReferences = (
+				E19BBD352B3125C200E523C0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = E1CF7DB52B30E70E004626F1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E19BBD392B31262800E523C0 /* OpenAIService.swift in Sources */,
+				E19BBD342B31201800E523C0 /* GeneratorViewModal.swift in Sources */,
+				E1CF7DE62B30E922004626F1 /* Welcome.swift in Sources */,
+				E1CF7DE42B30E78A004626F1 /* ImageStyle.swift in Sources */,
 				E1CF7DBA2B30E70E004626F1 /* ContentView.swift in Sources */,
 				E1CF7DB82B30E70E004626F1 /* AITextToImageApp.swift in Sources */,
+				E19BBD322B3119AF00E523C0 /* GeneratorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +616,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E19BBD352B3125C200E523C0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E19BBD362B3125C200E523C0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E19BBD352B3125C200E523C0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E1CF7DAC2B30E70E004626F1 /* Project object */;
 }
